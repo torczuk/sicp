@@ -1,4 +1,5 @@
-# Structure and Intepretation of Computer Programs 2nd edition
+# Structure and Intepretation of Computer Programs
 
-Random solutions of excercises
+Random solutions of excercises of SaIoCP 2nd edition
+
 
