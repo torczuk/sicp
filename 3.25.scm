@@ -53,3 +53,8 @@
 (define put (operation-table 'insert-proc!))
 (define show (operation-table 'show))
 
+;; sample
+(put (list 'a 'b) 1)
+(get (list 'a 'b))
+(put (list 'b) 2)
+show
