@@ -16,4 +16,4 @@
 (pairs integer integer)
 
 ;; number of pairs before (n, m) pair
-;; (1 + (m -1) / 2) * (m  - 1) + (n - 1)
+;; (1 + (m - 1) / 2) * (m  - 1) + (n - 1)
