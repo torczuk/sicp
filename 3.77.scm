@@ -5,7 +5,7 @@
    (if (stream-null? (force integrand))
        the-empty-stream
        (integral 
-        (stream-cdr (force integrand))
+        (delay (stream-cdr (force integrand)))
         (+ (* dt (stream-car (force integrand)))
            initial-value)
         dt))))
